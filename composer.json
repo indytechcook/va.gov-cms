@@ -10,8 +10,8 @@
         "acquia/drupal-spec-tool": "^2.0"
     },
     "require": {
-        "cweagans/composer-patches": "^1.6.4",
         "acquia/headless_lightning": "^1.4.0-beta2",
+        "cweagans/composer-patches": "^1.6.4",
         "devshop/behat-drupal-extension": "dev-rewrite-last-page-output-links",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "drupal/address": "^1.4",
@@ -93,6 +93,7 @@
         "drupal/tablefield": "^2.1",
         "drupal/taxonomy_menu": "^3.4",
         "drupal/textfield_counter": "^1.6",
+        "drupal/tome": "1.2.0",
         "drupal/toolbar_menu": "^2.1",
         "drupal/toolbar_menu_clean": "^1.0",
         "drupal/tour_ui": "^1.0@beta",
@@ -108,7 +109,7 @@
         "drupal/workbench_menu_access": "^1.0",
         "drupal/workflow_participants": "^2.4",
         "drush-ops/behat-drush-endpoint": "^0.0.4",
-        "drush/drush": "~8.3",
+        "drush/drush": "^10.2",
         "guzzlehttp/guzzle": "^6.0@dev",
         "michelf/php-markdown": "^1.8",
         "mouf/nodejs-installer": "^1.0",

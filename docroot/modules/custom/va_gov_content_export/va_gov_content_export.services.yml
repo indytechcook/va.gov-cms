@@ -1,0 +1,9 @@
+services:
+  serializer.normalizer.content_entity_tome_sync.va_gov_content_export:
+    class: Drupal\va_gov_content_export\Normalizer\ContentEntityNormalizer
+    arguments: ['@entity.manager']
+    tags:
+      - { name: normalizer, priority: 1 }
+  va_gov.content_export.breadcrumb_update:
+    class: Drupal\va_gov_content_export\AddBreadcrumbToEntity
+    arguments: ['@breadcrumb', '@router.route_provider', '@paramconverter_manager']
