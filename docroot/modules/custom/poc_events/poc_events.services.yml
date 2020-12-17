@@ -1,0 +1,6 @@
+services:
+  poc_events.event_subscriber:
+    class: Drupal\poc_events\EventSubscriber\WorkflowSubscriber
+    arguments: ['@danse.plugin.manager']
+    tags:
+      - { name: event_subscriber }
